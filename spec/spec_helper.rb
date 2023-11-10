@@ -3,6 +3,8 @@ require 'pry'
 
 # ARRAYS / STRING
 require './lib/arrays_strings/merge_alternately.rb'
+require './lib/arrays_strings/gcd_of_strings.rb'
+require './lib/arrays_strings/kids_with_candies.rb'
 
 # TWO POINTERS
 

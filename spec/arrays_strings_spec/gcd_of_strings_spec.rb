@@ -1,5 +1,7 @@
 require 'spec_helper'
 
+# Greatest Common Divisor of Strings
+
 describe '#gcd_of_strings' do
   it 'returns the largest string that divides both strings' do
     expect(gcd_of_strings("ABCABC", "ABC")).to eq("ABC")

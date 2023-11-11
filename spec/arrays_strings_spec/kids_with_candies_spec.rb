@@ -2,7 +2,7 @@ require 'spec_helper'
 
 # Kids With the Greatest Number of Candies
 
-describe '#kids_with_candies' do
+describe 'Kids With the Greatest Number of Candies #kids_with_candies' do
   it 'returns a boolean array where each element is true if the kid has the greatest number of candies' do
     expect(kids_with_candies([2,3,5,1,3], 3)).to eq([true,true,true,false,true])
     # Explanation: If you give all extraCandies to:

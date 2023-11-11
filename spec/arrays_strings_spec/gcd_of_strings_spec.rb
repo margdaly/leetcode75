@@ -6,7 +6,7 @@ require 'spec_helper'
 # if and only if s = t + ... + t 
 # (i.e., t is concatenated with itself one or more times).
 
-describe '#gcd_of_strings' do
+describe 'Greatest Common Divisor of Strings #gcd_of_strings' do
   context 'string1 is divisable by string2' do
     it 'returns the largest string that divides both strings' do
       expect(gcd_of_strings('ABABAB', 'ABAB')).to eq('AB')

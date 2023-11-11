@@ -1,6 +1,8 @@
 require 'spec_helper'
 
-describe '#merge_alternately' do
+# Merge Strings Alternately
+
+describe 'Merge Strings Alternately #merge_alternately' do
   it 'merges letters in alternating order, starting with word1' do
     expect(merge_alternately('abc', 'xyz')).to eq('axbycz')
     expect(merge_alternately('xxx', 'ooo')).to eq('xoxoxo')

@@ -15,8 +15,8 @@ def gcd_of_strings(str1, str2)
   end
 end
 
-# expect(gcd_of_strings("ABCABC", "ABC")).to eq("ABC")
 # expect(gcd_of_strings("ABABAB", "ABAB")).to eq("AB")
 
 # PASSING
-#   expect(gcd_of_strings("LEET", "CODE")).to eq("")
+# expect(gcd_of_strings("LEET", "CODE")).to eq("")
+# expect(gcd_of_strings("ABCABC", "ABC")).to eq("ABC")

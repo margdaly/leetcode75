@@ -8,6 +8,9 @@
 # return the largest string x such that x divides both str1 and str2.
 
 def gcd_of_strings(str1, str2)
-    
+  return "" if !str1.include?(str2)
 end
 
+# expect(gcd_of_strings("ABCABC", "ABC")).to eq("ABC")
+# expect(gcd_of_strings("ABABAB", "ABAB")).to eq("AB")
+# expect(gcd_of_strings("LEET", "CODE")).to eq("")
